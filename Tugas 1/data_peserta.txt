@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Muhammad Haidir
+2. Email: haidirreact@gmail.com
+3. Sistem Operasi yang digunakan: windows 10
+4. Akun Gitlab: haidirBelajar
+5. Akun Telegram: @comoy
