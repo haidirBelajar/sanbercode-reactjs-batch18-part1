@@ -1,0 +1,148 @@
+body {
+    background-image: url(../img/pattern.jpg);
+    repeat: no-repeat;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+    margin-left: 24px;
+}
+
+header nav li:last-child {
+    margin-right: 24px;
+}
+
+header nav ul a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.content {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    width: 100%;
+}
+
+.title h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+#article-list {
+    padding: 0px 16px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.article-post {
+    margin-bottom: 16px;
+    padding: 8px 0px 8px 8px;
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
+}
+
+.article-post:hover {
+    box-shadow: 0 0 7px 2px #00000059
+}
+
+.about {
+    border: 1px solid black;
+    box-shadow: -4px 26px 38px -3px #fff
+}
+
+.contact {
+    border: 1px solid black;
+    box-shadow: -4px 26px 38px -3px #fff
+}
+
+.our-data ul li {
+    list-style: none;
+}
+
+
+.data-input {
+    padding-left: 40px;
+}
+
+.label-input {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.label-input label{
+    font-weight: 700;
+}
+
+.label-input textarea {
+    text-align: left;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.gender-form {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.back {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 24px;
+}
+
+.back a {
+    margin-right: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
