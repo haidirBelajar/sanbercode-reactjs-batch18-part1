@@ -28,7 +28,7 @@ var kataPertama = kalimat.substring(0, 3);
 var kataKedua = kalimat.substring(4,14);
 var kataKetiga = kalimat.substring(14,19);
 var kataKeempat = kalimat.substring(19,24)
-var kataKelima = kalimat.substring(25,30);
+var kataKelima = kalimat.substring(25,31);
 
 console.log('Kata Pertama: ' + kataPertama); 
 console.log('Kata Kedua: ' + kataKedua); 
