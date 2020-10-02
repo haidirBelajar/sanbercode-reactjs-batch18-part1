@@ -89,11 +89,16 @@ console.log(buah[0]);
 console.log('======================');
 var dataFilm = [];
 function addFilm(nama,durasi,genre,tahun){
-    dataFilm.push(nama="Beranak dalam empang",durasi="20menit",genre="komedi",tahun="2001");
+    dataFilm.push({
+    nama : nama,
+    durasi : durasi,
+    genre : genre,
+    tahun : tahun
+});
     return dataFilm;
 }
 
-addFilm("nama","durasi","genre","tahun");
+addFilm("cupangmu_cupangku_cupang_kita_semua.3gp","30menit","panas","2001");
 console.log('========== 6 ==========');
 console.log(dataFilm);
 console.log('=======================');
